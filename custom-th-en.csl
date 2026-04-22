@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text">
   <info>
-    <title>Custom Author-Date (TH first)</title>
-    <id>http://www.zotero.org/styles/custom-th-en</id>
-    <link href="http://www.zotero.org/styles/custom-th-en" rel="self"/>
+    <title>Custom Minimal Author-Date</title>
+    <id>http://www.zotero.org/styles/custom-minimal-author-date</id>
+    <link href="http://www.zotero.org/styles/harvard1" rel="independent-parent"/>
     <author>
       <name>Custom</name>
     </author>
@@ -11,12 +11,8 @@
     <updated>2026-01-01T00:00:00+00:00</updated>
   </info>
 
-  <!-- ===== Citation ===== -->
-  <citation et-al-min="3" et-al-use-first="1">
-    <sort>
-      <key variable="author"/>
-      <key variable="issued"/>
-    </sort>
+  <!-- Citation -->
+  <citation>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=" ">
         <names variable="author">
@@ -29,12 +25,11 @@
     </layout>
   </citation>
 
-  <!-- ===== Bibliography ===== -->
+  <!-- Bibliography -->
   <bibliography>
     <sort>
       <key variable="language"/>
       <key variable="author"/>
-      <key variable="issued"/>
     </sort>
 
     <layout>
