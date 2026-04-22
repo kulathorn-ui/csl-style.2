@@ -1,0 +1,33 @@
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Custom Author-Year TH First</title>
+    <id>http://www.zotero.org/styles/custom-th-en</id>
+  </info>
+
+  <citation>
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <group delimiter=" ">
+        <text variable="author"/>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </group>
+    </layout>
+  </citation>
+
+  <bibliography>
+    <sort>
+      <key variable="language"/>
+      <key variable="author"/>
+    </sort>
+
+    <layout>
+      <group delimiter=" ">
+        <text variable="author"/>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </group>
+    </layout>
+  </bibliography>
+</style>
